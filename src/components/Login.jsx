@@ -8,7 +8,7 @@ export default function Login({setUser}) {
     const [email, setEmail]= useState('');
     const navigate= useNavigate();
     return (        
-        <div className="signup" style={{backgroundColor:'#61c4f9',width:'100%',height:'100vh'}}>
+        <div className="signup" style={{backgroundColor:'#61c4f9',width:'100%',height:'100vh',marginLeft:'0.5%'}}>
             <Row>
                 <Col style={{padding:'100px'}}>
                 <div className="loginPart">
@@ -46,12 +46,6 @@ export default function Login({setUser}) {
                  >
                 Start Shopping
                 </Button>
-
-
-            <div className="joinClub" style={{color:'white', textAlign:'center'}}>
-             Join the Club <a style={{color:'blue', textDecoration:'none', textAlign:'center'}} href="/signup"> Click here to join</a>
-           </div>
-
                     </Form>
                 </div>
                 </Col>
