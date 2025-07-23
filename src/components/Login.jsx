@@ -15,7 +15,7 @@ export default function Login({setUser}) {
                     <h1 style={{color:'purple',textAlign:'center'}}>InStA BuY</h1>
                     <h5 style={{color:'royalblue',width:'100%'}}>One Place for all your needs and Shop from the latest trendy clothes to the best gadgets</h5>
                     <Form >
-                        <h5>No need to have an account Enter you mail and create password and Login</h5>
+                        <h5>No need to have an account Enter your mail and create password and Login securely</h5>
                         <div className="form" style={{width:'85%',marginTop:'4%',margin:'10px',}}>
                         <Form.Group  controlId="formBasicEmail">
                           <Form.Control type="email" placeholder="Enter email"  onChange={(e)=> setEmail(e.currentTarget.value)}/> 
